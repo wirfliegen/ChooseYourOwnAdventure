@@ -6,24 +6,40 @@ var game = {
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You spawn. What do you do?",
             choices: [
                 {
-                    text: "Enter the cave",
-                    nextLevel: "cave",
+                    text: "Get some wood",
+                    nextLevel: "wood",
                 },
 
                 {
-                    text: "Keep on moving",
-                    nextLevel: "field",
+                    text: "Hunt for hostile mobs",
+                    nextLevel: "mobs",
                 },
             ]
         },
 
-        cave: {
+        wood: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
+            message: "You have some wood and wood weapons. What now?",
+            choices: [
+                {
+                    text: "Make a house",
+                    nextLevel: "house",
+                },
+                
+                {
+                   text: "Mine",
+                   next: "mine",
+                },
+            ]
+        },
+
+        mobs: {
+            message: "You died!",
+            music: "Determination.mp3",
             choices: [
                 {
                     text: "Start over",
@@ -31,16 +47,44 @@ var game = {
                 },
             ]
         },
-
-        field: {
-            message: "Some adventurer you are...",
+        
+        mine: {
+            message: "You found diamonds! What do you do?",
+            music: "",
             choices: [
                 {
-                    text: "Start over",
-                    nextLevel: "start",
+                    text: "Mine diamonds",
+                    nextLevel: "noDiamonds",
                 },
+                
+                {
+                    text: "Wait until you get better weapons",
+                    nextLevel: "",
+                }
             ]
         },
-
+        
+        house: {
+            message: "",
+            music: "",
+            choices: [
+                {
+                    text: "",
+                    nextLevel: "",
+                }
+            ]
+        },
+        noDiamonds: {
+            message: "Your wooden pickaxe broke and you didn't get any diamonds.",
+            music: "",
+            choices: [
+                {
+                   text: "Sucks to be you",
+                   nextLevel: "",
+                }
+            ]
+        },
+        
+        
     }
 };
