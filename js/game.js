@@ -22,8 +22,9 @@ var game = {
         },
         
         p4Start: {
-            message: "You're going to be living in the countryside with your uncle and your younger cousin for a year because your parents are away on business. Coincidentally, once you arrived, people have been getting murdered. Why is this happening? You're about to find out (and try to put an end to it with the power of friendship).",
+            message: "You're going to be living in the countryside (Inaba!) with your uncle and your younger cousin for a year because your parents are working overseas :/. Coincidentally, once you arrived, people have been getting murdered. Why is this happening? You're about to find out (and try to put an end to it with the power of friendship).",
             music: "Pursuing-My-True-Self.mp3",
+            background_image: "Persona_4_investigation_team_9.jpg",
             choices: [
                 {
                     text: "Okay, cool.",
@@ -40,6 +41,7 @@ var game = {
         school: {
             message: "Your first day at your new school! Yay! You even make new friends: Yosuke, Chie, and Yukiko! They tell you about the Midnight Channel. According to legend, when you look at the TV when it's raining at midnight you see ~magical~ people inside. You decide to try it out later that night, and as it turns out, the rumor is true!",
             music: "specialist.mp3",
+            background_image: "ProtagonistTV.gif",
             choices: [
                 {
                    text: "Midnight Channel real",
@@ -51,6 +53,7 @@ var game = {
         junes: {
             message: "You tell Chie and Yosuke about last night's discovery, but they don't believe you. You decide to test it out at the Junes electronics section (yes, the local superstore is a legitimate hangout spot). You stick your hand through the TV. Yosuke and Chie believe you now, at least. What now?",
             music: "Junes Theme.mp3",
+            
             choices: [
                 {
                     text: "Enter the TV with Yosuke",
@@ -190,7 +193,7 @@ var game = {
         },
         
         chieShadow: {
-            message: "Uh oh! Chie's shadow self appeared! It's a part of Chie that she doesn't want to accept (so you need to fight it before it runs amok and kills you). Deep down, Chie is jealous of Yukiko.",
+            message: "Uh oh! Chie's shadow self appeared! It's a part of Chie that she doesn't want to accept (so you need to fight it before it runs amok). Deep down, Chie is jealous of Yukiko.",
             music: "Borderline of Madness.mp3",
             choices: [
                 {
@@ -201,7 +204,7 @@ var game = {
         },
         
         chieShadowFight: {
-            message: "This is a group effort. You and Yosuke need to fight this thing together.",
+            message: "This is a group effort. You and Yosuke need to fight this thing together. Since, you know, you two are the only ones with Personas. And Chie really needs your help.",
             music: "I'll Face Myself -Battle-.mp3",
             choices: [
                 {
@@ -247,6 +250,22 @@ var game = {
                     nextLevel: "start",
                 }
             ]
-        }
+        },
+        
+        xc2Start: {
+            message: "",
+            music: "Where We Used To Be.mp3",
+            choices: [
+                {
+                    text: "",
+                    nextLevel: "",
+                },
+                
+                {
+                    text: "",
+                    nextLevel: "",
+                },
+            ]
+        },
     },
 };
