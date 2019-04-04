@@ -1,7 +1,7 @@
 # Choose Your Own Adventure
 
-## Project Description 
-In this unit, coders will create a Choose Your Own Adventure Game. Students will create and modify objects that make up the levels of their game. 
+## Project Description
+In this unit, coders will create a Choose Your Own Adventure Game. Students will create and modify objects that make up the levels of their game.
 
 ### Planning
 - [x] Using pen and paper, create your own flow diagram for your own adventure game.
@@ -16,9 +16,9 @@ In this unit, coders will create a Choose Your Own Adventure Game. Students will
 
 ### Extensions
 Only once you’ve got your game working
-- [ ] Add a new background image or new background music to your game.
-- [ ] Change the background image or music in a specific level.
-- [ ] Create a level with more than 2 choices.
+- [x] Add a new background image or new background music to your game.
+- [x] Change the background image or music in a specific level.
+- [x] Create a level with more than 2 choices.
 
 ### Wrap
-- [ ] Once finished, add your project to your portfolio!
+- [] Once finished, add your project to your portfolio!
